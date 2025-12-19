@@ -6,7 +6,7 @@ from typing import Optional
 import requests
 from llama_index.core.tools.tool_spec.base import BaseToolSpec
 
-QUERY_URL_TMPL = "http://api.wolframalpha.com/v1/result?appid={app_id}&i={query}"
+QUERY_URL_TMPL = "https://api.wolframalpha.com/v1/result?appid={app_id}&i={query}"
 
 
 class WolframAlphaToolSpec(BaseToolSpec):
